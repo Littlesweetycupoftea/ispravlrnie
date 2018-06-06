@@ -3,9 +3,7 @@
     int main(void) {
         int ch;
         FILE * pf_r, * pf_w;
-        int presence[255] = {
-            0
-        };
+        int presence[255] = {0};
 
         pf_r = fopen("old.txt", "r");
         pf_w = fopen("new.txt", "w");
